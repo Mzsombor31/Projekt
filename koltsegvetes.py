@@ -100,7 +100,7 @@ def raktar2():
     
     print('A Raktár2-ben használatos eszközök: ', eszkz, end=" ")
 
-raktar2(()
+raktar2()
 
 
 
