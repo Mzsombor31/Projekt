@@ -1,0 +1,25 @@
+body{
+    background-image: url(gulugulu.png);
+
+}
+h1{
+    text-align: center;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+
+h2{
+    text-align: center;
+    color:black;
+}
+#halozat{
+    color: black;
+    margin-right: 900px;
+}
+p{
+    margin-left: 30px;
+}
+h3{
+    margin-left: 10px;
+}
