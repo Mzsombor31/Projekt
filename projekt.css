@@ -1,25 +1,14 @@
-body{
-    background-image: url(gulugulu.png);
 
+#fejlec{
+    margin-left: 140px;
 }
+
 h1{
     text-align: center;
-    margin-right: 600px;
-    margin-left: 600px;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-
-h2{
+#nevek{
     text-align: center;
-    color:black;
-}
-#halozat{
-    color: black;
-    margin-right: 900px;
-}
-p{
-    margin-left: 30px;
-}
-h3{
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }

@@ -2,76 +2,96 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="projekt.css" >
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="projekt.css" >
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<script src="jquery.min.js"></script>
 	<script src="popper.min.js"></script>
 	<script src="bootstrap.min.js"></script>
-    
     <title>Projekt óra</title>
 </head>
+
+
+
+
 <body>
     <h1>Projekt Órai Dokumentáció</h1>
-    <h2>Megyeri Réka, Novák Noémi, Molnár Zsombor</h2>
     <header class="fejlec">
 		<div class="container h-100">
+            <img src="fejleckep.jpg" title="Fejléc" alt="Fejléc" id="fejlec">
 		</div>
     </header>
+
+    <div class="container h-100">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary my-1">
+			<div class="" id="navbarNav">
+				<ul class="navbar-nav text-white">
+					<li class="nav-item text-white">
+						<a class="nav-link" href="#rolunk">Rólunk</a>
+					</li>
+					<li class="nav-item text-white">
+						<a class="nav-link" href="#halozat">A Hálózat</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#python">A Python</a>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#weblap">A Weblap</a>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#kepek">Képek</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+        <!-- Rólunk -->
+		<section id="rolunk">
+			<h3><u>Rólunk</u></h3>
+            <p>
+                Élveztük együtt a közös munkát, úgy gondoljuk, hogy jó volt együtt dolgozni, segíteni egymást, esetleg új dolgot tanulni a másiktól. Szerintünk jól összelett rakva a csapatunk, hisz egyaránt vettük ki a részünket a feladatból, othhon is dolgoztunk rajta, törekedtünk a hibátlan munkára. Nagy szerencsének gondoljuk. hogy a három különböző feladatból mind a hármunknak volt olyan feladat amelyekhez jobban értünk. Hogy itt pontosan mire gondolunk a következő szövegből megértitek.
+            </p>
+		</section>
+
+
+        <section>
+            <h3><u>A Projektmunka részei</u></h3>
+
+            <div class="row">
+				<div class="sm-12 col-md-4 p-2" id="halozat">
+					<div class="p-3 bg-light h-100">
+						<p>
+                            <b>A Hálózat készítése:</b><br>
+                            A feladat az Iroda, a Raktár1, és a Raktár2 hálózat felépítése volt. Minden szekció tertalma: egy wireless router, egy nyomtató, egy switch, egy laptop és két db. PC.
+                            Az irodához 192.168.10.0-s IP címek lettek hozzárendelve, a Raktár1-hez 192.168.20.0-s IP címek és a Raktár2-höz pedig 192.168.30.0-s IP címek.
+                            A DNS-ek 8.8.8.8, 9.9.9.9 és 10.10.10.10-esek lettek. Átjárónak a legelső kiosztható Ip cím lett megadva parcellánként (pl.:192.168.10.1). Ezzel leginkább Zsombor foglalkozott de persze mindeki kivette egy kis részét a feladatból.
+                        </p>
+					</div>
+				</div>
+				<div class="sm-12 col-md-4 p-2" id="python">
+					<div class="p-3 bg-light h-100">
+                        <p>
+                            <b>A Python készítése:</b><br>
+                            A feladat a hálózatok kölségvetésének kiszámítása. Ezeket külön függvényben számítjuk amelyekben megadhatók az eszközök, annak áraik amiból kiszámítja, hogy mennyit kellene költeni az adott hálózatra, illetve összegzi milyen eszközök használatosak ehhez. Így teljessen átlátható hogy a valóságban hogyan, milyen eszközökből, és mennyiért lehet felépíteni egy hasonló hálózatot. A Pythonos feladatot Noémi és Réka osztja meg. A kódolásban egyaránt segítetenek egymásnak.
+                        </p>
+					</div>
+				</div>
+				<div class="sm-12 col-md-4 p-2" id="weblap">
+					<div class="p-3 bg-light h-100">
+						<p>
+                            <b>A Weblap készítése:</b><br>
+                            A Weblapunkban dokumentáltuk a munka folyamatát, a feladatok elkészítésének módját, és hogy min mennyit dolgoztunk. Külön oszlopokban végig dokumentáltuk a hálózat, a python, és a weblap elkészítését. Bevezetőnek rólunk írtunk néhány mondatot hogy hogyan is dolgozunk eggyütt. Ha bármikor elakadtunk hárman eggyütt oldottuk meg a problémákat
+                            A weblappal először Zsombor foglalkozott aztán Noémi és Réka vette át a munkát.
+                        </p>
+					</div>
+                </div> 
+            </div>
+        </section>
+        <p id="nevek">Készítette: Molnár Zsombor, Novák Noémi és Megyeri Réka</p>
+    </div>
     
-    <nav class="navbar navbar-expand-lg bg-light my-1">
-        <div id="navbar-nav">
-            <ul class="navbar-nav text-black">
-                <li class="nav-item text-black">
-                    <a class="nav-link" href="#halozat">A Hálózati rész</a>
-                </li>
-                <li class="nav-item text-black" >
-                    <a class="nav-link" href="#python">A Pythonos rész</a>
-                </li>
-                <li class="nav-item text-black">
-                    <a class="nav-link" href="#weblap">Weblap</a>
-                </li>
-                <li class="nav-item text-black">
-                    <a class="nav-link" href="#kepek">A munkáról készült képek</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <section >
-
-        <h3>A Hálózat készítése</h3>
-        <div class="row" id="halozat">
-            <div>
-                <p>
-                    A hálozati résszel Zsombor foglalkozott. Az minden szekció tertalma: egy wireless router, egy nyomtató, egy switch, egy laptop és két db. PC <br>
-                    Az irodához 192.168.10.0-s IP címek lettek hozzárendelve, a Raktár1-hez 192.168.20.0-s IP címek és a Raktár2-höz pedig 192.168.30.0-s IP címek.<br>
-                    A DNS-ek 8.8.8.8, 9.9.9.9 és 10.10.10.10-esek lettek. Átjárónak a legelső kiosztható Ip cím lett megadva parcellánként (pl.:192.168.10.1) 
-                </p>
-            </div>
-        </div>
-
-        <h3>A Python készítése</h3>
-        <div class="row" id="python">
-            <div>
-                <p>
-                    A Pythonos feladatot Noémi és Réka osztotja meg. A kódolásban egyaránt segítetenek egymásnak. A feladat a hálózatok kölségvetésének kiszámítása. Ezeket külön függvényben számítjuk amelyekben megadhatók az eszközök, annak áraik amiból kiszámítja, hogy mennyit kellene költeni az adott hálózatra, illetve összegzi milyen eszközök használatosak ehhez. Így teljessen átlátható hogy a valóságban hogyan, milyen eszközökből, és mennyiért lehet felépíteni egy hasonló hálózatot.
-                </p>
-            </div>
-        </div>
-        
-        <h3>A Weblap készítése</h3>
-        <div class="row" id="weblap">
-            <div>
-                <p>
-                    A weblapot Zsombor kezdte el, a feléig jutott a másik felét Noémi csinálta, mikor elakadtunk közösen hárman megnéztük mi lehet a hiba, majd megoldást keresünk rá.
-                </p>
-            </div>
-        </div>                         
-
-    </section>
-
+    
   
     
 </body>
